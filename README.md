@@ -6,7 +6,9 @@
      
 https://github.com/user-attachments/assets/42b0b8cb-2e8a-43d0-ac6e-8cec31928021
      
-<img width="799" height="628" alt="Unbenannt" src="https://github.com/user-attachments/assets/e5feb6b1-aa75-40b7-a357-5c6eab5f9233" />
+<img width="799" height="628" alt="Unbenannt" src="https://github.com/user-attachments/assets/e5feb6b1-aa75-40b7-a357-5c6eab5f9233" />  
+     
+https://youtu.be/Gqev1AHYT6Y     
      
 After building Yutani GPU Particles, I wondered if I could pull off the exact same OpenGL 4.3 compute shader trick inside Skia4Delphi—and well, turns out you can push a million liquid particles right onto a 2D Skia canvas.     
        
