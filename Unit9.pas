@@ -1,11 +1,11 @@
 unit Unit9;
 
 interface
+
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
-  FMX.StdCtrls, FMX.Controls.Presentation,
-  uSkiaGPULiquid;
+  FMX.StdCtrls, FMX.Controls.Presentation, uSkiaGPULiquid;
 
 type
   TForm9 = class(TForm)
@@ -13,7 +13,6 @@ type
     procedure FormDestroy(Sender: TObject);
   private
     FSkiaView: TSkiaGPULiquid;
-    // Ein Layout hält die UI stabil, damit FMX beim Neuzeichnen nicht spinnt
     UILayout: TLayout;
     btnStart: TButton;
     btnStop: TButton;
@@ -27,16 +26,18 @@ type
   public
     { Public-Deklarationen }
   end;
+
 var
   Form9: TForm9;
+
 implementation
 {$R *.fmx}
+
 procedure TForm9.FormCreate(Sender: TObject);
 begin
-  Caption := 'Skia Threaded Base Sample';
+  Caption := 'Skia GPU Liquid Sample';
   ClientWidth := 800;
   ClientHeight := 600;
-  // 1. UI Layout (Sorgt dafür, dass die Trackbar nicht flackert/verspringt)
   UILayout := TLayout.Create(Self);
   UILayout.Parent := Self;
   UILayout.Align := TAlignLayout.Top;
@@ -93,20 +94,24 @@ begin
   FPSTimer.OnTimer := OnFPSTimer;
   FPSTimer.Enabled := True;
 end;
+
 procedure TForm9.FormDestroy(Sender: TObject);
 begin
   // Owned components are freed automatically
 end;
+
 procedure TForm9.OnStartClick(Sender: TObject);
 begin
   if Assigned(FSkiaView) then
     FSkiaView.Active := True;
 end;
+
 procedure TForm9.OnStopClick(Sender: TObject);
 begin
   if Assigned(FSkiaView) then
     FSkiaView.Active := False;
 end;
+
 procedure TForm9.OnFPSTracking(Sender: TObject);
 begin
   if Assigned(FSkiaView) and Assigned(tbFPS) then
@@ -114,6 +119,7 @@ begin
     FSkiaView.TargetFPS := Round(tbFPS.Value);
   end;
 end;
+
 procedure TForm9.OnFPSTimer(Sender: TObject);
 begin
   if Assigned(FSkiaView) and Assigned(lblFPS) then
@@ -121,4 +127,6 @@ begin
     lblFPS.Text := Format('Target: %d | Real: %d FPS', [FSkiaView.TargetFPS, FSkiaView.RealFPS]);
   end;
 end;
+
 end.
+
