@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/42b0b8cb-2e8a-43d0-ac6e-8cec31928021
      
 <img width="802" height="633" alt="1" src="https://github.com/user-attachments/assets/a146d1e8-ccb4-483e-9f18-0dd7e4620baf" />
        
-https://youtu.be/Gqev1AHYT6Y
+https://youtu.be/E7i0gEfUl9I          
 
 After building Yutani GPU Particles, I wondered if I could pull off the exact same
 OpenGL 4.3 compute shader trick inside Skia4Delphi — and well, turns out you can
