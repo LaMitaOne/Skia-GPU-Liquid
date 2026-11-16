@@ -1,6 +1,7 @@
 # Skia-GPU-Liquid v0.2
 
-Real-time 2D compute shader GPU liquid & particle simulation rendered directly
+Real-time 2D compute shader GPU liquid & particle simulation and 
+Global Live Telemetry Command Center rendered directly
 inside an FMX Skia4Delphi control (TSkiaCustomThreadedBase derivative).
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LaMitaOne/Skia-GPU-Liquid)
