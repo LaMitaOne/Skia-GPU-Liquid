@@ -40,7 +40,7 @@ composited onto the Skia canvas with crisp vector HUD overlays.
 | 125M      | —                | 60 FPS              |
 | 1B        | 1 FPS            | 8 FPS               |
 
-1 billion particles on a 6 FPS floor — without crashing, without a bluescreen,
+1 billion particles on a 8 FPS floor — without crashing, without a bluescreen,
 without VRAM allocation failure. The APU's shared-memory architecture (system
 RAM acting as VRAM) is what makes the 1B run on the Ryzen survive at all.
 
