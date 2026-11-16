@@ -1,0 +1,18 @@
+object MainForm: TMainForm
+  Left = 0
+  Top = 0
+  Caption = 'Global Live Telemetry Command Center'
+  ClientHeight = 800
+  ClientWidth = 1280
+  Fill.Color = xFF05060A
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  FormFactor.Width = 1280
+  FormFactor.Height = 800
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnMouseWheel = FormMouseWheel
+  OnResize = FormResize
+  DesignerMasterStyle = 0
+end
