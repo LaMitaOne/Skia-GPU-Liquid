@@ -43,7 +43,9 @@ composited onto the Skia canvas with crisp vector HUD overlays.
 
 1 billion particles on a 8 FPS floor — without crashing, without a bluescreen,
 without VRAM allocation failure. The APU's shared-memory architecture (system
-RAM acting as VRAM) is what makes the 1B run on the Ryzen survive at all.
+RAM acting as VRAM) is what makes the 1B run on the Ryzen survive at all.    
+Ehm yes i thought he explodes now finally but...i tried it on ux305ca dualcore m3 too....
+and 1 million looks still smooth, fps no idea, not shows correct but it works oO   
 
 ## Key Features
 
