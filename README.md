@@ -75,3 +75,7 @@ https://github.com/LaMitaOne/SkiaCustomThreadedBase
 
 1B at rtx2060s:      
 <img width="802" height="629" alt="2" src="https://github.com/user-attachments/assets/69d29fa1-3089-489e-9130-0a02416b1c99" />
+
+     
+and if you want to play with your gpu too, but youre not a visual dev, then maybe....this could be interesting for you:      
+https://github.com/LaMitaOne/GPGPU-DataSetFilter    
