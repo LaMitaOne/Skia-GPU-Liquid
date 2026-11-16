@@ -1,4 +1,4 @@
-# Skia-GPU-Liquid
+# Skia-GPU-Liquid v0.2
 
 Real-time 2D compute shader GPU liquid & particle simulation rendered directly
 inside an FMX Skia4Delphi control (TSkiaCustomThreadedBase derivative).
