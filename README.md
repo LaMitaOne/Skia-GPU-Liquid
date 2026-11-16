@@ -61,6 +61,19 @@ RAM acting as VRAM) is what makes the 1B run on the Ryzen survive at all.
 - Accurate GPU compute-thread RealFPS measurement
 - Zero external dependencies (pure Windows `opengl32.dll` + Skia4Delphi)
 
+## Folder `livedatasample` — Global Live Telemetry Command Center    
+<img width="1280" height="801" alt="Unbenannt" src="https://github.com/user-attachments/assets/33b67d52-b887-4ff9-8c13-58b44d57e023" />
+
+    
+A real-world showcase turning live global telemetry feeds into millions of GPU particle emitters on a Skia4Delphi world map — no API keys, no logins, no paid tiers.
+        
+- **Live Global Aircraft ([OpenSky Network](https://opensky-network.org)):** Pulls real-time aircraft coordinates, velocities, and headings worldwide with GPU dead-reckoning trails.     
+- **Live Orbital Satellites ([CelesTrak](https://celestrak.org)):** Propagates ~10,000+ active satellites (including Starlink & ISS) with glowing orbital tracks.    
+- **Live Earthquakes ([USGS GeoJSON](https://usgs.gov)):** Real-time seismic events triggering expanding, magnitude-scaled shockwave rings.    
+- **Interactive Skia HUD & Controls:** Mouse-wheel zoom, drag-to-pan, feed filters (`All` / `Planes` / `Sats` / `Quakes`), and live FPS/particle counters.    
+- **Included files:** Full source (`uLiveFeeds.pas`, `uSkiaTelemetryMap.pas`), ready-to-run `.exe`, and an equirectangular `world_dark.png` background map (make sure `sk4d.dll` is in the same folder when launching standalone).     
+         
+
 ## Requirements
 
 - Delphi 12+ (or any version with FMX + Skia4Delphi support)
