@@ -47,7 +47,7 @@ RAM acting as VRAM) is what makes the 1B run on the Ryzen survive at all.
 ## Key Features
 
 - **Up to 1,000,000,000 particles** in a single SSBO (7M @ 60 FPS on Ryzen 4500U
-  iGPU, 1250M @ 60 FPS on RTX 2060 Super, 1B @ 8 FPS on RTX 2060 Super)
+  iGPU, 125M @ 60 FPS on RTX 2060 Super, 1B @ 8 FPS on RTX 2060 Super)
 - Dedicated offscreen OpenGL 4.3 context running asynchronously in a `TThread`
 - Three compute passes per frame: trail-fade, curl-field precompute, particle sim
 - Half-float packed SSBO (`uvec2` = 8 bytes/particle) — 1B particles fit in 8 GB VRAM
