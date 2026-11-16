@@ -79,3 +79,4 @@ https://github.com/LaMitaOne/SkiaCustomThreadedBase
      
 and if you want to play with your gpu too, but youre not a visual dev, then maybe....this could be interesting for you:      
 https://github.com/LaMitaOne/GPGPU-DataSetFilter    
+or for 3d https://github.com/LaMitaOne/Yutani-GPU-Particles     
