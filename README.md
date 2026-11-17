@@ -74,7 +74,7 @@ A real-world showcase turning live global telemetry feeds into millions of GPU p
 - **Live Orbital Satellites ([CelesTrak](https://celestrak.org)):** Propagates ~10,000+ active satellites (including Starlink & ISS) with glowing orbital tracks.    
 - **Live Earthquakes ([USGS GeoJSON](https://usgs.gov)):** Real-time seismic events triggering expanding, magnitude-scaled shockwave rings.    
 - **Interactive Skia HUD & Controls:** Mouse-wheel zoom, drag-to-pan, feed filters (`All` / `Planes` / `Sats` / `Quakes`), and live FPS/particle counters.    
-- **Included files:** Full source (`uLiveFeeds.pas`, `uSkiaTelemetryMap.pas`), ready-to-run `.exe`, and an equirectangular `world_dark.png` background map (make sure `sk4d.dll` is in the same folder when launching standalone).     
+- **Included files:** Full source (`uLiveFeeds.pas`, `uSkiaTelemetryMap.pas`), ready-to-run `.exe`, and an equirectangular `world.jpg` background map (make sure `sk4d.dll` is in the same folder when launching standalone).     
          
 
 ## Requirements
