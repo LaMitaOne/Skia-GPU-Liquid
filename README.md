@@ -2,8 +2,10 @@
 
 Real-time 2D compute shader GPU liquid & particle simulation and 
 Global Live Telemetry Command Center rendered directly
-inside an FMX Skia4Delphi control (TSkiaCustomThreadedBase derivative).
-
+inside an FMX Skia4Delphi control (TSkiaCustomThreadedBase derivative).    
+      
+here a new sample what we could do with it: https://github.com/LaMitaOne/Skia-GPU-Alive-Particle-Components    
+      
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LaMitaOne/Skia-GPU-Liquid)
 
 https://github.com/user-attachments/assets/42b0b8cb-2e8a-43d0-ac6e-8cec31928021
